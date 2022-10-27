@@ -112,8 +112,8 @@ export const Projects = () => {
         ],
       },
       {
-        name: "reciepe app",
-        desc: "It is a mini reciepe app to check reciepe of your favourite food.",
+        name: "recipe app",
+        desc: "It is a mini reciepe app to check recipe of your favourite food.",
         img: foodapp,
         demoLink: "https://newfoodapp.netlify.app/",
         codeLink: "https://github.com/masai-course/Rohit_fw19_0034/tree/master/unit-3/sprint-4/day-1/assignments/foodapp",
