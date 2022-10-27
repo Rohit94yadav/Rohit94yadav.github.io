@@ -6,7 +6,7 @@ import "./githubStats.css";
 const GithubStats = () => {
   return (
     <div className="contact-container">
-      <Container id="contact">
+      <Container >
         <Row>
           <Col>
           <h2 style={{marginTop:"30px"}}>Github Stats</h2>
