@@ -29,8 +29,8 @@ const About = () => {
                 School. I am passionate about solving real-world problems and
                 actively looking for opportunities in the field of web
                 development and software engineering.</li>
-                <li>I was always intrested in web development but did not have correct guidance but when i got to know about Masai School 
-                  I was overwhelmed and immidiately took admission.
+                <li>I was always interested in web development but did not have correct guidance but when i got to know about Masai School 
+                  I was overwhelmed and immediately took admission.
                 </li>
                 <li>I'm a passionate Developer, with strong administrative and communication skills,
                    good attention to detail and the ability to write efficient code using MERN Stack.</li>
