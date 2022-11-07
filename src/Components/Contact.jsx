@@ -15,7 +15,7 @@ const Contact = () => {
             </h5>
             <br />
             <h5>
-              <a href="mailto:kkrajput1198@gmail.com" className="contact-me">
+              <a href="rohit94yadav@gmail.com" className="contact-me">
                 <span>
                   {" "}
                   <i className="fa fa-envelope"></i>

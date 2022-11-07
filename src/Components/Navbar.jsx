@@ -26,7 +26,7 @@ export const Navbaar = () => {
               target="_blank"
             >
               Resume
-              <i className="fa fa-download"></i>
+              <i style={{marginLeft:"4px"}} className="fa fa-download"></i>
             </Button>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -203,8 +203,8 @@ const Skills = () => {
             </Card>
 
             {/* Hosting Platforms */}
-            <Card className="focus mt-2 mb-2 ">
-              <Card.Body>
+            <Card className="focus mt-3 mb-2" >
+              <Card.Body >
                 <Card.Title className="text-center  card-title">
                   Hosting Platforms
                 </Card.Title>
@@ -296,7 +296,7 @@ const Skills = () => {
             </Card>
             {/* Version Control */}
 
-            <Card className="focus mt-2 mb-2" style={{height:"232px"}} >
+            <Card className="focus mt-2 mb-2" style={{height:"229px"}} >
               <Card.Body>
                 <Card.Title className="text-center  card-title">
                   Version <br /> Control{" "}
