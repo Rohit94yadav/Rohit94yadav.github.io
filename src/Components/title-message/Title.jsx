@@ -7,13 +7,14 @@ export const Title = () => {
   const TitleMessage = styled.h1`
    
     
-    color: mintcream;
-    position: absolute;
-    width: 100%;
+    color: black;
+   margin:auto;
+   justify-content:flex-end;
+    width: 30%;
     top: 22rem;
     padding:20px;
     z-index: 1;
-    margin-top: -200px;
+   
     text-align: center;
     .title-message-container {
       display: flex;
@@ -24,7 +25,7 @@ export const Title = () => {
   return (
     <TitleMessage>
       <div className="title-message-container">
-        <div style={{ height: "300px" }}>
+        <div >
           <div className="scrollable-div">
             <TypeWriterEffect
               textStyle={{
@@ -38,7 +39,9 @@ export const Title = () => {
               typeSpeed={100}
               scrollArea={myRef}
               hideCursorAfterText="true"
+              
             />
+            
             <TypeWriterEffect
               textStyle={{
                 fontFamily: "Red Hat Display",

@@ -10,6 +10,18 @@
     margin: 0 10px;
     color: rgb(74, 74, 74);
   }
+
+  .stats{
+    background-color: rgb(90, 105, 128);
+    font-size: 60px;
+    color: rgb(226, 212, 194);
+   
+  }
+  .stats:hover{
+    background-color: rgb(226, 212, 194);
+    font-size: 66px;
+    color: rgb(90, 105, 128);
+  }
   
   .contact-me > span:hover {
     color: black;
@@ -18,4 +30,15 @@
     background-color: #e0e5e7;
     padding: 40px;
   }
+
+  @media (max-width: 768px) {
+   
+    .stats{
+      background-color: rgb(90, 105, 128);
+      font-size: 30px;
+      color: rgb(226, 212, 194);
+     
+    }
+  }
+  
   

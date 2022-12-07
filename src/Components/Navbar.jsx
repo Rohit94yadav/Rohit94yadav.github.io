@@ -10,8 +10,8 @@ export const Navbaar = () => {
       <Navbar
         collapseOnSelect
         expand="lg"
-        bg="dark"
-        variant="dark"
+        bg="light"
+        variant="light"
         fixed="top"
         id="navbar"
         className="animate-navbar nav-theme justify-content-between"
@@ -19,31 +19,44 @@ export const Navbaar = () => {
         <Container>
           <Navbar.Brand>
             {/* Resume */}
-            <Button
-              className="m-2"
-              variant="success"
-              href={resume}
-              target="_blank"
-            >
-              Resume
-              <i style={{marginLeft:"4px"}} className="fa fa-download"></i>
-            </Button>
+            <img
+                
+                src="https://images.assetsdelivery.com/compings_v2/pixbold/pixbold2202/pixbold220200202.jpg"
+                width="48px"
+                className="img-fluid mx-2 d-inline-block"
+                alt=""
+              />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
-            <Nav>
+            <Nav style={{fontWeight:"500",marginRight:"20px"}}>
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link eventKey={2} href="#about">
                 About
               </Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
-              <Nav.Link eventKey={2} href="#contact">
+              <Nav.Link eventKey={4} href="#contact">
                 Contact
               </Nav.Link>
+              
             </Nav>
+            <span></span>
+            <span></span>
+            <span></span>
+            <Button 
+              className="btn btn-info"
+              variant="Info"
+              href={resume}
+              target="_blank"
+            >
+              Resume
+              <i style={{marginLeft:"4px"}} className="fa fa-download"></i>
+            </Button>
+            
           </Navbar.Collapse>
+          
         </Container>
       </Navbar>
     </div>

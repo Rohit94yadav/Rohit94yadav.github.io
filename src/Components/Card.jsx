@@ -3,7 +3,7 @@ import "./Card.css";
 
 const Card = ({ data }) => {
   return (
-    <div className="col-md-6 my-4 text-dark project-card">
+    <div className={`col-md-6 my-10 text-dark project-card shadow-md hover:scale-105 duration-500 py-2 rounded-lg  ${data.style}`}>
       <div className="card border shadow p-3 h-100">
         <img src={data.img} className="img-fluid border project-image" alt="" />
         <h4 className="text-center my-2 font-weight-bold">{data.name}</h4>

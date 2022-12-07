@@ -9,9 +9,12 @@ const GithubStats = () => {
       <Container >
         <Row>
           <Col>
-          <h2 style={{marginTop:"30px"}}>Github Stats</h2>
+          <h2 className="stats" style={{marginTop:"30px"}}>Github Stats</h2>
+          <div style={{display:"flex",margin:"auto",justifyContent:"center"}} >
+
             <img style={{width:"70%",marginTop:"30px"}} src="https://github-readme-stats.vercel.app/api?username=Rohit94yadav&theme=radical" alt="stats" />
-          <h2 style={{marginTop:"30px"}}>Github Calender</h2>
+          </div>
+          <h2 className="stats" style={{marginTop:"30px"}}>Github Calender</h2>
           <div style={{width:"70%",margin:"auto",marginTop:"30px"}}>
 
           <GitHubCalendar username="Rohit94yadav" />

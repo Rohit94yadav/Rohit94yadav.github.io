@@ -18,6 +18,7 @@ export const Projects = () => {
         img: asos,
         demoLink: "https://stirring-marzipan-5d4585.netlify.app/index.html",
         codeLink: "https://github.com/Sagar1079/asos_project",
+        style: "shadow-yellow-500",
         techstack: [
           
           "/icons/css-3.svg",
@@ -32,6 +33,7 @@ export const Projects = () => {
         img: shine,
         demoLink: "https://cloneshineapp.netlify.app/index.html",
         codeLink: "https://github.com/rituraj6/-slim-pen-3767",
+        style: "shadow-yellow-500",
         techstack: [
          
           "/icons/css-3.svg",
@@ -46,6 +48,7 @@ export const Projects = () => {
         img: kindmeal,
         demoLink: "https://kind-meal.netlify.app/",
         codeLink: "https://github.com/Rohit94yadav/kind-meal/tree/main/kind-meal/kind-meal",
+        style: "shadow-yellow-500",
         techstack: [
           "/icons/html-5.svg",
           "/icons/css-3.svg",
@@ -63,6 +66,7 @@ export const Projects = () => {
         img: naukri,
         demoLink: "https://clonenaukri.netlify.app/",
         codeLink: "https://github.com/Rohit94yadav/boring-gun-6988",
+        style: "shadow-yellow-500",
         techstack: [
           "/icons/html-5.svg",
           "/icons/css-3.svg",
@@ -77,6 +81,7 @@ export const Projects = () => {
         img: chargebee,
         demoLink: "https://chargebeeclone-94.netlify.app/",
         codeLink: "https://github.com/Rohit94yadav/wretched-room-300",
+        style: "shadow-yellow-500",
         techstack: [
           "/icons/html-5.svg",
           "/icons/css-3.svg",
@@ -91,6 +96,7 @@ export const Projects = () => {
         img: youtube,
         demoLink: "http://127.0.0.1:5502/youtube%202/index.html",
         codeLink: "https://github.com/masai-course/Rohit_fw19_0034/tree/master/unit-3/sprint-3/day-1/assignments/youtube",
+        style: "shadow-yellow-500",
         techstack: [
           "/icons/html-5.svg",
           "/icons/css-3.svg",
@@ -104,6 +110,7 @@ export const Projects = () => {
         img: weatherapp,
         demoLink: "https://majestic-longma-de397f.netlify.app",
         codeLink: "https://github.com/masai-course/Rohit_fw19_0034/tree/master/unit-3/sprint-2/day-3/assignments/weather%20data%20with%20gps",
+        style: "shadow-yellow-500",
         techstack: [
           "/icons/html-5.svg",
           "/icons/css-3.svg",
@@ -117,6 +124,7 @@ export const Projects = () => {
         img: foodapp,
         demoLink: "https://newfoodapp.netlify.app/",
         codeLink: "https://github.com/masai-course/Rohit_fw19_0034/tree/master/unit-3/sprint-4/day-1/assignments/foodapp",
+        style: "shadow-yellow-500",
         techstack: [
           "/icons/html-5.svg",
           "/icons/css-3.svg",

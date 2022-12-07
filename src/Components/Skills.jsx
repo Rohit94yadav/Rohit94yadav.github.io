@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Card, Image } from "react-bootstrap";
+
 import L_HTML5 from "../assets/img/skills/html-5.svg";
 import L_CSS3 from "../assets/img/skills/css3.svg";
 
@@ -17,313 +17,127 @@ import L_VERCEL from "../assets/img/skills/vercel.svg";
 import L_GITHUB_PAGES from "../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../assets/img/skills/javascript.svg";
 import L_NETLIFY from "../assets/img/skills/netlify.svg";
-import "./Skills.css";
+
 
 const Skills = () => {
-  const skills = {
-    frontend: [
-      {
-        link: "https://en.wikipedia.org/wiki/HTML5",
-        imgAltText: "HTML 5",
-        imgSrc: L_HTML5,
-        skillName: "HTML5",
-      },
-      {
-        link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
-        imgAltText: "CSS 3",
-        imgSrc: L_CSS3,
-        skillName: "CSS3",
-      },
-      {
-        link: "https://www.javascript.com/",
-        imgAltText: "JavaScript",
-        imgSrc: L_JAVASCRIPT,
-        skillName: "JavaScript",
-      },
-      {
-        link: "https://reactjs.org/",
-        imgAltText: "React JS",
-        imgSrc: L_REACT,
-        skillName: "React JS",
-      },
-      {
-        link: "https://redux.js.org/",
-        imgAltText: "Redux",
-        imgSrc: L_REDUX,
-        skillName: "Redux",
-      },
-      {
-        link: "https://reacttraining.com/react-router/",
-        imgAltText: "React Router",
-        imgSrc: L_REACT_ROUTER,
-        skillName: "React Router",
-      },
-      {
-        link: "https://material-ui.com/",
-        imgAltText: "Material-UI",
-        imgSrc: L_MATERIALUI,
-        skillName: "Material-UI",
-      },
-    ],
+  const techs = [
+    {
+      id: 1,
+      src: L_HTML5,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 2,
+      src: L_CSS3,
+      title: "CSS",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 3,
+      src: L_JAVASCRIPT,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 4,
+      src: L_REACT,
+      title: "React",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 5,
+      src: L_NODE_JS,
+      title: "NodeJs",
+      style: "shadow-green-400",
+    },
+    {
+      id: 6,
+      src: L_REACT_ROUTER,
+      title: "React-Router-Dom",
+      style: "shadow-white",
+    },
+    {
+      id: 7,
+      src: L_MATERIALUI,
+      title: "Material-UI",
+      style: "shadow-pink-400",
+    },
+    {
+      id: 8,
+      src: L_GIT,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: L_HEROKU,
+      title: "Heroku",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 10,
+      src: L_EXPRESS,
+      title: "Express",
+      style: "shadow-white",
+    },
+    {
+      id: 11,
+      src: L_MONGODB,
+      title: "MongoDB",
+      style: "shadow-green-500",
+    },
+    {
+      id: 12,
+      src: L_REDUX,
+      title: "Redux",
+      style: "shadow-purple-500",
+    },
+    {
+      id: 13,
+      src: L_VERCEL,
+      title: "Vercel",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 14,
+      src: L_GITHUB_PAGES,
+      title: "Github-Pages",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 15,
+      src: L_NETLIFY,
+      title: "Netlify",
+      style: "shadow-yellow-500",
+    },
+  ];
 
-    backend: [
-      {
-        link: "https://nodejs.org/en/",
-        imgAltText: "Node.js",
-        imgSrc: L_NODE_JS,
-        skillName: "Node.js",
-      },
-      {
-        link: "https://expressjs.com/",
-        imgAltText: "Express",
-        imgSrc: L_EXPRESS,
-        skillName: "Express",
-      },
-    ],
-    hostingPlatforms: [
-      {
-        link: "https://www.heroku.com/",
-        imgAltText: "Heroku",
-        imgSrc: L_HEROKU,
-        skillName: "Heroku",
-      },
-      {
-        link: "https://www.heroku.com/",
-        imgAltText: "Vercel",
-        imgSrc: L_VERCEL,
-        skillName: "Vercel",
-      },
-
-      {
-        link: "https://pages.github.com/",
-        imgAltText: "GitHub Pages",
-        imgSrc: L_GITHUB_PAGES,
-        skillName: "GitHub Pages",
-      },
-      {
-        link: "https://www.netlify.com/",
-        imgAltText: "Netlify",
-        imgSrc: L_NETLIFY,
-        skillName: "Netlify",
-      },
-    ],
-    programmingLanguages: [
-      {
-        link: "https://www.javascript.com/",
-        imgAltText: "JavaScript",
-        imgSrc: L_JAVASCRIPT,
-        skillName: "JavaScript",
-      },
-    ],
-    databases: [
-      {
-        link: "https://www.mongodb.com/",
-        imgAltText: "MongoDB",
-        imgSrc: L_MONGODB,
-        skillName: "MongoDB",
-      },
-    ],
-    versionControl: [
-      {
-        link: "https://git-scm.com/",
-        imgAltText: "GIT",
-        imgSrc: L_GIT,
-        skillName: "GIT",
-      },
-    ],
-  };
   return (
-    <div className="skill-container">
-      <div className="pt-3 pb-3 width-container" id="skills">
-        <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
-        {/* <CardDeck> */}
-        <Row className="d-flex justify-content-around">
-          {/* Frontend */}
-          <Col md={4}>
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                {/* Frontend */}
-                <Card.Title className="text-center  card-title">
-                  Frontend
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.frontend.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="image-style m-1"
-                        ></Image>{" "}
-                        {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
+    <div
+      name="experience"
+      className="bg-gradient-to-b from-gray-800 to-grey experience"
+      id="skills"
+    >
+      <div className="max-w-screen-lg mx-auto p-7 flex flex-col justify-center w-full h-full text-black font-bold">
+        <div>
+          <p className="text-4xl font-bold border-b-4 text-white border-gray-500 p-2 inline">
+            SKILLS
+          </p>
+          <p className="py-9 text-2xl text-center text-white">These are the technologies I've worked with and used them in my projects.</p>
+        </div>
 
-          {/* Backend */}
-          <Col md={4}>
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  Backend
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.backend.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="image-style m-1"
-                        ></Image>{" "}
-                        {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-
-            {/* Hosting Platforms */}
-            <Card className="focus mt-3 mb-2" >
-              <Card.Body >
-                <Card.Title className="text-center  card-title">
-                  Hosting Platforms
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.hostingPlatforms.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="image-style m-1"
-                        ></Image>{" "}
-                        {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          {/* Programming Languages */}
-          <Col md={4}>
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  Programming Languages
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.programmingLanguages.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="image-style m-1"
-                        ></Image>{" "}
-                        {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-
-            {/* Database */}
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  Database
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.databases.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="image-style m-1"
-                        ></Image>{" "}
-                        {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            {/* Version Control */}
-
-            <Card className="focus mt-2 mb-2" style={{height:"229px"}} >
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  Version <br /> Control{" "}
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  <span className="p-2">
-                    <a
-                      className="text-dark text-decoration-none"
-                      href={skills.versionControl[0].link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src={skills.versionControl[0].imgSrc}
-                        alt={skills.versionControl[0].imgAltText}
-                        rounded
-                        className="image-style m-1"
-                      ></Image>{" "}
-                      {skills.versionControl[0].skillName}
-                    </a>
-                  </span>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+          {techs.map(({ id, src, title, style }) => (
+            <div
+              key={id}
+              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+            >
+              <img src={src} alt="" className="w-20 mx-auto" />
+              <p className="mt-4 text-center">{title}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

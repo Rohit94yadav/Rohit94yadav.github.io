@@ -10,7 +10,7 @@ const About = () => {
       <Container className="about-container bgi" id="about" >
         <Row>
           <Col>
-            <h1>ABOUT ME</h1>
+            <h1 className="aboutme" >ABOUT ME</h1>
           </Col>
         </Row>
       </Container>
@@ -39,6 +39,36 @@ const About = () => {
           </Col>
         </Row>
       </Container>
+      <div style={{ backgroundColor: "black" }}>
+        <div className="wrapper">
+          <a
+            href="https://twitter.com/Rohit94yadav"
+            className="icon twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa fa-twitter"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/rohit-yadav-18b716199/"
+            className="icon linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/Rohit94yadav"
+            className="icon github"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa fa-github"></i>
+          </a>
+        </div>
+        
+      </div>
     </div>
   );
 };

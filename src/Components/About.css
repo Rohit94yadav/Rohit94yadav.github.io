@@ -1,16 +1,22 @@
-h1,
-h2 {
-  color: #2c2852;
-}
+
 .about-container {
   padding: 25px;
+}
+.aboutme{
+  background-color: rgb(90, 105, 128);
+  font-size: 60px;
+  color: rgb(226, 212, 194);
+ 
+}
+.aboutme:hover{
+  background-color: rgb(226, 212, 194);
+  font-size: 66px;
+  color: rgb(90, 105, 128);
 }
 h6, p{
   text-align: left;
 }
-h1 {
-  font-size: 60px;
-}
+
 .bgi {
   background-color: #f2f4f5;
 }
@@ -25,5 +31,11 @@ h1 {
   h3,
   h6 {
     margin-top: 10px;
+  }
+  .aboutme{
+    background-color: rgb(90, 105, 128);
+    font-size: 30px;
+    color: rgb(226, 212, 194);
+   
   }
 }
