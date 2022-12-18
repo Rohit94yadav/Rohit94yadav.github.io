@@ -17,7 +17,13 @@ const GithubStats = () => {
           <h2 className="stats" style={{marginTop:"30px"}}>Github Calender</h2>
           <div style={{width:"70%",margin:"auto",marginTop:"30px"}}>
 
-          <GitHubCalendar username="Rohit94yadav" />
+          <GitHubCalendar 
+          username="Rohit94yadav" 
+          blockSize={15}
+          blockMargin={5}
+          fontSize={16}
+          color="#2c3542"
+          />
           </div>
           </Col>
         </Row>

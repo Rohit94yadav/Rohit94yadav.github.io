@@ -8,10 +8,31 @@ import youtube from "../assets/img/projects/youtube.png";
 import chargebee from "../assets/img/projects/chargebee.png";
 import shine from "../assets/img/projects/shine.png";
 import asos from "../assets/img/projects/asos.png";
+import sugar from "../assets/img/projects/sugar.png";
+import gearbest from "../assets/img/projects/gearbest.png";
 import "./Project.css";
 export const Projects = () => {
   const project = {
     data: [
+      {
+        name: "sugarcosmetics.com Clone",
+        desc: "sugarcosmetics.com a brand of choice for the women of today! And we're here to ensure you have a lot of fun with our makeup.",
+        img: sugar,
+        demoLink: "https://sugar-cosmetics-app.netlify.app/",
+        codeLink: "https://github.com/sudiptadip/bent-stretch-1134-sugarcosmetics_clone",
+        style: "shadow-yellow-500",
+        techstack: [
+          
+          "/icons/css-3.svg",
+          "/icons/javascript.svg",
+          "/icons/html-5.svg",
+          "/icons/react.svg",
+          "/icons/react-router.svg",
+          "/icons/mongodb.svg",
+          "/icons/express.svg",
+       
+        ],
+      },
       {
         name: "asos.com Clone",
         desc: "asos.com is a British online fashion and cosmetic retailer website established in 2000.",
@@ -24,6 +45,24 @@ export const Projects = () => {
           "/icons/css-3.svg",
           "/icons/javascript.svg",
           "/icons/html-5.svg",
+       
+        ],
+      },
+      {
+        name: "gearbest.com Clone",
+        desc: "Gearbest provides the most cost-efficient delivery service covering 200+ countries and regions, most of which enjoy free door-to-door delivery.",
+        img: gearbest,
+        demoLink: "https://gear-best-clone.netlify.app/",
+        codeLink: "https://github.com/RakeshAhire/needless-marble-4977",
+        style: "shadow-yellow-500",
+        techstack: [
+          
+          "/icons/css-3.svg",
+          "/icons/javascript.svg",
+          "/icons/html-5.svg",
+          "/icons/react.svg",
+          "/icons/react-router.svg",
+          "/icons/redux.svg",
        
         ],
       },
@@ -95,7 +134,7 @@ export const Projects = () => {
         desc: "YouTube is an American online video sharing and social media platform headquartered in San Bruno, California. It was launched on February 14, 2005, by Steve Chen, Chad Hurley, and Jawed Karim.",
         img: youtube,
         demoLink: "http://127.0.0.1:5502/youtube%202/index.html",
-        codeLink: "https://github.com/masai-course/Rohit_fw19_0034/tree/master/unit-3/sprint-3/day-1/assignments/youtube",
+        codeLink: "https://github.com/Rohit94yadav/unit-3-js201-class-work/tree/a88a6fff1816be984725e7c570eddfd5d7ede3ce/utube",
         style: "shadow-yellow-500",
         techstack: [
           "/icons/html-5.svg",
@@ -109,7 +148,7 @@ export const Projects = () => {
         desc: "It is a mini weather app to check weather of any area.",
         img: weatherapp,
         demoLink: "https://majestic-longma-de397f.netlify.app",
-        codeLink: "https://github.com/masai-course/Rohit_fw19_0034/tree/master/unit-3/sprint-2/day-3/assignments/weather%20data%20with%20gps",
+        codeLink: "https://github.com/Rohit94yadav/unit-3-js201-class-work/blob/23e10883b2e498604952b858184403c699bc187e/weatherfetch.html",
         style: "shadow-yellow-500",
         techstack: [
           "/icons/html-5.svg",
