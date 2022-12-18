@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.3337ac01.css",
-    "main.js": "/static/js/main.baf4e388.js",
+    "main.js": "/static/js/main.7d30ca36.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/asos.png": "/static/media/asos.e3abec61afbc2f6b424e.png",
     "static/media/foodapp.png": "/static/media/foodapp.218ee620a9716d9e8555.png",
     "static/media/youtube.png": "/static/media/youtube.d74c03cdd3cd85a8ddc2.png",
     "static/media/profile.jpg": "/static/media/profile.4c9c9ae8ce0097c8747b.jpg",
+    "static/media/gearbest.png": "/static/media/gearbest.6fafbffc1cb1f1d4bf11.png",
+    "static/media/sugar.png": "/static/media/sugar.3aa7bad916e43f398284.png",
+    "static/media/resume.pdf": "/static/media/resume.2cc65046a8760c985beb.pdf",
     "static/media/shine.png": "/static/media/shine.4e20612acc42eabf7cf1.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/naukri.png": "/static/media/naukri.c5f196d43844fa218f2e.png",
     "static/media/chargebee.png": "/static/media/chargebee.ab72657c401ccefdb9fe.png",
-    "static/media/resume.pdf": "/static/media/resume.b306f1ecb7981b195829.pdf",
     "static/media/weatherapp.png": "/static/media/weatherapp.413ef3a423c115e96d6e.png",
     "static/media/kindmeal.jpeg": "/static/media/kindmeal.86aa6740b1ddae691dd6.jpeg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -35,11 +37,11 @@
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/vercel.svg": "/static/media/vercel.0d94e923424aa8a93432103a604aa0fb.svg",
     "main.3337ac01.css.map": "/static/css/main.3337ac01.css.map",
-    "main.baf4e388.js.map": "/static/js/main.baf4e388.js.map",
+    "main.7d30ca36.js.map": "/static/js/main.7d30ca36.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3337ac01.css",
-    "static/js/main.baf4e388.js"
+    "static/js/main.7d30ca36.js"
   ]
 }
