@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3337ac01.css",
-    "main.js": "/static/js/main.c4934a71.js",
+    "main.css": "/static/css/main.8b50081f.css",
+    "main.js": "/static/js/main.63dc0bc9.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/asos.png": "/static/media/asos.e3abec61afbc2f6b424e.png",
     "static/media/foodapp.png": "/static/media/foodapp.218ee620a9716d9e8555.png",
     "static/media/youtube.png": "/static/media/youtube.d74c03cdd3cd85a8ddc2.png",
+    "static/media/Rohit-Yadav-resume.pdf": "/static/media/Rohit-Yadav-resume.25613a8023223201009f.pdf",
     "static/media/profile.jpg": "/static/media/profile.4c9c9ae8ce0097c8747b.jpg",
     "static/media/gearbest.png": "/static/media/gearbest.6fafbffc1cb1f1d4bf11.png",
     "static/media/sugar.png": "/static/media/sugar.3aa7bad916e43f398284.png",
-    "static/media/resume.pdf": "/static/media/resume.2cc65046a8760c985beb.pdf",
     "static/media/shine.png": "/static/media/shine.4e20612acc42eabf7cf1.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/naukri.png": "/static/media/naukri.c5f196d43844fa218f2e.png",
@@ -36,12 +36,12 @@
     "index.html": "/index.html",
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/vercel.svg": "/static/media/vercel.0d94e923424aa8a93432103a604aa0fb.svg",
-    "main.3337ac01.css.map": "/static/css/main.3337ac01.css.map",
-    "main.c4934a71.js.map": "/static/js/main.c4934a71.js.map",
+    "main.8b50081f.css.map": "/static/css/main.8b50081f.css.map",
+    "main.63dc0bc9.js.map": "/static/js/main.63dc0bc9.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3337ac01.css",
-    "static/js/main.c4934a71.js"
+    "static/css/main.8b50081f.css",
+    "static/js/main.63dc0bc9.js"
   ]
 }
