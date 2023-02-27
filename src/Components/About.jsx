@@ -4,6 +4,7 @@ import Image from "react-bootstrap/Image";
 
 import "./About.css";
 import profile from "../assets/img/profile/profile.jpg";
+import { MyCarousal } from "./my-carousal/my-carousel";
 const About = () => {
   return (
     <div className="bgi mar-container about-container"  >
@@ -16,9 +17,7 @@ const About = () => {
       </Container>
       <Container className="bgi" style={{width:"90%",margin:"auto"}}>
         <Row className="about-container">
-          <Col>
-            <Image src={profile} rounded className="profile-image" />
-          </Col>
+          <MyCarousal/>
           <Col>
             <div className="aobut-name">
               <h6>Hi there! I am </h6>

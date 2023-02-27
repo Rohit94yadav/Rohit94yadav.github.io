@@ -2,7 +2,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import "./Navbar.css";
 import "font-awesome/css/font-awesome.min.css";
 import { Button } from "react-bootstrap";
-import resume from "../assets/files/resume.pdf";
+
 export const Navbaar = () => {
   return (
     <div className="navbar-container">
@@ -48,7 +48,7 @@ export const Navbaar = () => {
             <Button 
               className="btn btn-info"
               variant="Info"
-              href={resume}
+              href= "/files/Rohit-Yadav-resume.pdf"
               target="_blank"
             >
               Resume

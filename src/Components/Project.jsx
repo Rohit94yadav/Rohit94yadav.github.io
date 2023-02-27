@@ -29,7 +29,7 @@ export const Projects = () => {
           "/icons/react.svg",
           "/icons/react-router.svg",
           "/icons/mongodb.svg",
-          "/icons/express.svg",
+          "/icons/express.png",
        
         ],
       },
@@ -133,7 +133,7 @@ export const Projects = () => {
         name: "youtube.com Clone",
         desc: "YouTube is an American online video sharing and social media platform headquartered in San Bruno, California. It was launched on February 14, 2005, by Steve Chen, Chad Hurley, and Jawed Karim.",
         img: youtube,
-        demoLink: "http://127.0.0.1:5502/youtube%202/index.html",
+        demoLink: "https://curious-dolphin-9bcaa7.netlify.app/",
         codeLink: "https://github.com/Rohit94yadav/unit-3-js201-class-work/tree/a88a6fff1816be984725e7c570eddfd5d7ede3ce/utube",
         style: "shadow-yellow-500",
         techstack: [
@@ -162,7 +162,7 @@ export const Projects = () => {
         desc: "It is a mini recipe app to check recipe of your favourite food.",
         img: foodapp,
         demoLink: "https://newfoodapp.netlify.app/",
-        codeLink: "https://github.com/masai-course/Rohit_fw19_0034/tree/master/unit-3/sprint-4/day-1/assignments/foodapp",
+        codeLink: "https://github.com/Rohit94yadav/copy-of-masai-repo/tree/main/Rohit_fw19_0034-master/Rohit_fw19_0034-master/unit-3/sprint-4/day-1/assignments/foodapp",
         style: "shadow-yellow-500",
         techstack: [
           "/icons/html-5.svg",

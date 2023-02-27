@@ -1,29 +1,40 @@
 import React from "react";
 import TypeWriterEffect from "react-typewriter-effect";
+import {  Col } from "react-bootstrap";
+import Image from "react-bootstrap/Image";
+import "./About.css";
+import profile from "../assets/img/profile/profile.jpg";
+
 
 import styled from "styled-components";
 export const Title = () => {
   const myRef = document.querySelector(".scrollable-div");
   const TitleMessage = styled.h1`
    
-    
+    display:flex;
     color: black;
    margin:auto;
-   justify-content:flex-end;
-    width: 30%;
+   justify-content:space-around;
+   align-items:center;
+    margin-top:90px;
     top: 22rem;
-    padding:20px;
+    height:400px;
+    padding:50px;
     z-index: 1;
-   
+   background-color:black;
     text-align: center;
     .title-message-container {
       display: flex;
       flex-direction: column;
       align-items: center;
+      color: black;
     }
   `;
   return (
-    <TitleMessage>
+    <TitleMessage id="home">
+        <Col>
+            <Image src={profile} rounded className="profile-image" />
+          </Col>
       <div className="title-message-container">
         <div >
           <div className="scrollable-div">

@@ -35,7 +35,7 @@ const Card = ({ data }) => {
               <img
                 key={index}
                 src={elem}
-                width="32px"
+                width="22px"
                 className="img-fluid mx-2 d-inline-block"
                 alt=""
               />

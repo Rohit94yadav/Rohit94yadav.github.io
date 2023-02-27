@@ -8,12 +8,12 @@ import { MyCarousal } from "./Components/my-carousal/my-carousel";
 import { Navbaar } from './Components/Navbar';
 import { Projects } from "./Components/Project";
 import Skills from "./Components/Skills";
-
+import { Title } from "./Components/Title";
 
 function App() {
   return (
     <div className="App">
-      <MyCarousal/>
+      <Title/>
      
       <Navbaar/>
       <About/>

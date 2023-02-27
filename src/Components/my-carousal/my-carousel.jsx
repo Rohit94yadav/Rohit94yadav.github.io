@@ -10,13 +10,13 @@ import chargebee from "../../assets/img/projects/chargebee.png";
 import shine from "../../assets/img/projects/shine.png";
 import asos from "../../assets/img/projects/asos.png";
 
-import { Title } from "../title-message/Title";
+
 
 const MyCarousal = () => {
   return (
-    <div id="home" style={{display:"flex",marginTop:"5%",padding:"40px",backgroundColor:"#252f3c"}}>
-      <Carousel controls={false} indicators interval={2000} pause={false} style={{width:"530px"}}>
-        <Carousel.Item>
+    <div  style={{display:"flex",margin:"auto",width:"40%",justifyContent:"center",borderRadius:"15px"}}>
+      <Carousel controls={false} indicators interval={2000} pause={false} style={{width:"100%"}}>
+        <Carousel.Item >
           <img
             className="d-block w-30 custom-img"
             src={kindmeal}
@@ -81,7 +81,7 @@ const MyCarousal = () => {
           />
         </Carousel.Item>
       </Carousel>
-     <Title/>
+     
     </div>
   );
 };

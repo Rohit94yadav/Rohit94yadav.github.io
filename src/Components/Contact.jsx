@@ -10,7 +10,7 @@ const Contact = () => {
         <Contact2/>
         <Row>
           <Col>
-            <h2>Get In Touch</h2>
+            <h2 style={{marginTop:"20px"}}>Get In Touch</h2>
             <h5>
               Liked my work? Want to get in touch? <br />
               You can reach out to me at-

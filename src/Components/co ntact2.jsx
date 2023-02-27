@@ -1,11 +1,33 @@
 import React from "react";
-
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
+import emailjs from '@emailjs/browser';
 //function for form reset
-function handleSubmit(e){
-  setTimeout(() => {
-    e.target.reset();
-  }, 3000);
-}
+
+
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs.sendForm('service_hd76pea', 'template_7sk9b7h', e.target, 't5YaXnBJzJrTmZmLV')
+    .then((result) => {
+      toast.success('🦄 Your Message Has Been Delieverd Successfully!', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        });
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+    setTimeout(() => {
+      e.target.reset();
+    }, 2000);
+};
 
 const Contact2 = () => {
   return (
@@ -13,6 +35,7 @@ const Contact2 = () => {
       name="contact"
       className="contact bg-gradient-to-b from-black to-gray-800 p-2 text-white"
     >
+      <ToastContainer />
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
@@ -23,7 +46,7 @@ const Contact2 = () => {
         
         <div className=" flex justify-center items-center">
           <form
-            onSubmit={handleSubmit}
+            onSubmit={sendEmail}
             name="contact"
             method="POST"
             action="https://getform.io/f/a5bbeab4-3505-457e-bcda-603c8bc15711"
