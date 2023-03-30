@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.19c06951.css",
-    "main.js": "/static/js/main.3c173ecd.js",
+    "main.css": "/static/css/main.0f96403d.css",
+    "main.js": "/static/js/main.5a3937e1.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/asos.png": "/static/media/asos.e3abec61afbc2f6b424e.png",
     "static/media/foodapp.png": "/static/media/foodapp.218ee620a9716d9e8555.png",
@@ -9,18 +9,24 @@
     "static/media/profile.jpg": "/static/media/profile.4c9c9ae8ce0097c8747b.jpg",
     "static/media/gearbest.png": "/static/media/gearbest.6fafbffc1cb1f1d4bf11.png",
     "static/media/sugar.png": "/static/media/sugar.3aa7bad916e43f398284.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.3e4a71ab1d3ddf2cd95b.png",
     "static/media/shine.png": "/static/media/shine.4e20612acc42eabf7cf1.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/ca.png": "/static/media/ca.7ec6b253ac6bef96f1d1.png",
+    "static/media/bharatsons.png": "/static/media/bharatsons.54da91ea0961fb8dbbbd.png",
     "static/media/naukri.png": "/static/media/naukri.c5f196d43844fa218f2e.png",
     "static/media/chargebee.png": "/static/media/chargebee.ab72657c401ccefdb9fe.png",
+    "static/media/dreamview.png": "/static/media/dreamview.2e00f4e24a87324405a4.png",
     "static/media/weatherapp.png": "/static/media/weatherapp.413ef3a423c115e96d6e.png",
     "static/media/kindmeal.jpeg": "/static/media/kindmeal.86aa6740b1ddae691dd6.jpeg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/tictactoe.png": "/static/media/tictactoe.3cf092ad60c9524db63a.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/mongodb.svg": "/static/media/mongodb.6dec1a7b995041d9232d0ec897b9d08f.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.1ad8c6c3c290c2f57193cd7f6643f170.svg",
+    "static/media/emailjs.webp": "/static/media/emailjs.1d1d09715bc33f39989d.webp",
     "static/media/express.svg": "/static/media/express.dac4d30add8ccd55a0f1c4e06403d137.svg",
     "static/media/netlify.svg": "/static/media/netlify.1d9cb9ac8675567b57b681d16931917d.svg",
     "static/media/react.svg": "/static/media/react.add74742e9e8f8827f7fa666dca760db.svg",
@@ -35,12 +41,12 @@
     "index.html": "/index.html",
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/vercel.svg": "/static/media/vercel.0d94e923424aa8a93432103a604aa0fb.svg",
-    "main.19c06951.css.map": "/static/css/main.19c06951.css.map",
-    "main.3c173ecd.js.map": "/static/js/main.3c173ecd.js.map",
+    "main.0f96403d.css.map": "/static/css/main.0f96403d.css.map",
+    "main.5a3937e1.js.map": "/static/js/main.5a3937e1.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19c06951.css",
-    "static/js/main.3c173ecd.js"
+    "static/css/main.0f96403d.css",
+    "static/js/main.5a3937e1.js"
   ]
 }
